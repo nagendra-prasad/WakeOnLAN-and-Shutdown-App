@@ -38,7 +38,7 @@ A lightweight Python desktop tool to remotely **Wake Up** or **Shut Down** multi
 - Works out of the box with:
   - `tkinter`
   - `csv`
-  - `os`, `socket`, `subprocess`, `platform`  
+  - `os`, `socket`, `subprocess`, `platform`  `pyinstaller` `wakeonlan` `pillow`
   *(All part of Python’s standard library)*
 
 Folder structure (VERY important)
