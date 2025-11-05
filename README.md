@@ -65,26 +65,43 @@ Windows Xbox Game Bar (Win + G)
 or ScreenToGif (https://www.screentogif.com/
 )
 
+🧩 Step 1 — Install PyInstaller
+
+Run this command in Command Prompt (cmd):
+
+pip install pyinstaller
+
+
+If pip isn’t recognized, try:
+
+python -m ensurepip
+python -m pip install pyinstaller
 
 🧩 Step 2 — Verify Installation
+
 Check that it’s installed correctly:
 
-bash
-Copy code
 python -m pyinstaller --version
+
+
 You should see a version number (e.g., 6.10.0).
 
 🧩 Step 3 — Create EXE
+
 Now rerun your build command:
 
-bash
-Copy code
-python -m pyinstaller --onefile --noconsole WOL_Shutdown_Final.py
+pyinstaller --onefile --noconsole WOL_Shutdown_Final.py
+
+
 After a few minutes, your .exe will appear in:
 
-makefile
-Copy code
 C:\WOL_Shutdown_App\dist\WOL_Shutdown_Final.exe
+
+
+✅ Optional tip:
+If you’ll create .exe files often, install PyInstaller globally for all users:
+
+pip install pyinstaller --upgrade --user
 
 📜 License
 
