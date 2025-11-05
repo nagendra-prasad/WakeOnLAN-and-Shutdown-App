@@ -65,24 +65,26 @@ Windows Xbox Game Bar (Win + G)
 or ScreenToGif (https://www.screentogif.com/
 )
 
-⚙️ Build the EXE
 
-Once saved as WOL_Shutdown_Final.py, open Command Prompt in the same folder and run:
+🧩 Step 2 — Verify Installation
+Check that it’s installed correctly:
 
-pip install pyinstaller wakeonlan pillow
+bash
+Copy code
+python -m pyinstaller --version
+You should see a version number (e.g., 6.10.0).
 
+🧩 Step 3 — Create EXE
+Now rerun your build command:
 
-Then create your .exe:
+bash
+Copy code
+python -m pyinstaller --onefile --noconsole WOL_Shutdown_Final.py
+After a few minutes, your .exe will appear in:
 
-pyinstaller --onefile --noconsole WOL_Shutdown_Final.py
-
-🪄 Notes
-
-Make sure Wake-on-LAN is enabled in your BIOS and NIC settings.
-
-For remote shutdown, the target PC must allow remote shutdowns or share proper credentials.
-
-computers.csv should remain in the same directory as the .py or .exe.
+makefile
+Copy code
+C:\WOL_Shutdown_App\dist\WOL_Shutdown_Final.exe
 
 📜 License
 
