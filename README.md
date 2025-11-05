@@ -82,6 +82,17 @@ Windows Xbox Game Bar (Win + G)
 or ScreenToGif (https://www.screentogif.com/
 )
 
+⚙️ Build the EXE
+
+Once saved as WOL_Shutdown_Final.py, open Command Prompt in the same folder and run:
+
+pip install pyinstaller wakeonlan pillow
+
+
+Then create your .exe:
+
+pyinstaller --onefile --noconsole WOL_Shutdown_Final.py
+
 🪄 Notes
 
 Make sure Wake-on-LAN is enabled in your BIOS and NIC settings.
