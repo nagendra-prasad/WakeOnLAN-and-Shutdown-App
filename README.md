@@ -78,7 +78,7 @@ or ScreenToGif (https://www.screentogif.com/
 
 Run this command in Command Prompt (cmd):
 
-pip install pyinstaller
+pip install pyinstaller wakeonlan pillow
 
 
 If pip isn’t recognized, try:
