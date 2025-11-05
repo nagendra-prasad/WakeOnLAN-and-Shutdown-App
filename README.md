@@ -48,9 +48,10 @@ Put all files in one folder, for example:
 C:\WOL_Shutdown_App\
 
 C:\WOL_Shutdown_App\WOL_Shutdown_Final.py
-C:\WOL_Shutdown_App\logo.png                     ← your  logo
-C:\WOL_Shutdown_App\computers.csv                ← your CSV (optional)
 
+C:\WOL_Shutdown_App\logo.png                     ← your  logo
+
+C:\WOL_Shutdown_App\computers.csv                ← your CSV (optional)
 
 🖼️ Screenshots
 Main Interface
