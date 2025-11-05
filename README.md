@@ -46,10 +46,10 @@ Folder structure (VERY important)
 Put all files in one folder, for example:
 
 C:\WOL_Shutdown_App\
-│
-├── WOL_Shutdown_Final.py
-├── logo.png                     ← your Shadesphere logo
-├── computers.csv                ← your CSV (optional)
+
+C:\WOL_Shutdown_App\WOL_Shutdown_Final.py
+C:\WOL_Shutdown_App\logo.png                     ← your Shadesphere logo
+C:\WOL_Shutdown_App\computers.csv                ← your CSV (optional)
 
 
 🖼️ Screenshots
