@@ -117,6 +117,9 @@ pip install pyinstaller --upgrade --user
 
 Licensed under the GNU GPL-3.0 License — see the LICENSE file for more information.
 
+<img width="723" height="474" alt="image" src="https://github.com/user-attachments/assets/7b73d9be-1a51-4fdd-9b83-364adc0b0fbd" />
+
+
 👤 Author
 
 Nagendra Prasad
