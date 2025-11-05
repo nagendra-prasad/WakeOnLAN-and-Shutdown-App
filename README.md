@@ -41,24 +41,7 @@ A lightweight Python desktop tool to remotely **Wake Up** or **Shut Down** multi
   - `os`, `socket`, `subprocess`, `platform`  
   *(All part of Python’s standard library)*
 
-Optional for EXE build:
-```bash
-pip install pyinstaller
 
-🧰 Installation & Usage
-1️⃣ Edit the CSV file
-
-Add your computer details in computers.csv:
-
-hostname,mac_address,ip
-PC01,00:1A:2B:3C:4D:5E,192.168.1.10
-PC02,00:1A:2B:3C:4D:5F,192.168.1.11
-
-2️⃣ Run the App
-python WOL_Shutdown_Final_01.py
-
-3️⃣ Convert to Executable (Optional)
-pyinstaller --onefile --noconsole --icon=logo.ico WOL_Shutdown_Final_01.py
 
 🖼️ Screenshots
 Main Interface
