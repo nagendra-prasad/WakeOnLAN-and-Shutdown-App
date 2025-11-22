@@ -2,6 +2,8 @@
 
 A lightweight Python desktop tool to remotely **Wake Up** or **Shut Down** multiple computers over your local network using WOL (Wake-on-LAN) and Windows remote shutdown commands.
 
+<img width="723" height="474" alt="image" src="https://github.com/user-attachments/assets/7b73d9be-1a51-4fdd-9b83-364adc0b0fbd" />
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?logo=windows)
 ![License](https://img.shields.io/badge/License-GPL--3.0-green)
